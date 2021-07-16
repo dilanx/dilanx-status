@@ -2,9 +2,9 @@
     "title": "Dilan Status",
     "notices": [
         {
-            "title": "Temporarily Offline Notice",
+            "title": "Offline Notice",
             "color": "red",
-            "text": "Strawberry Server is temporarily offline for now. All services running on it will just be disabled until it's back up."
+            "text": "Strawberry Server is temporarily offline. All services running on it will just be disabled until it's back up, including Gamer Bot."
         }
     ],
     "blocks": [
@@ -62,7 +62,7 @@
                 {
                     "name": "Gamer Bot",
                     "status": "Temporarily Offline",
-                    "description": "GamerBot's sleeping for a bit. He'll be back soon."
+                    "description": "Gamer Bot's sleeping for a bit. He'll be back soon."
                 }
             ]
         },
