@@ -1,12 +1,6 @@
 {
     "title": "Dilan Status",
-    "notices": [
-        {
-            "title": "Offline Notice",
-            "color": "red",
-            "text": "Strawberry Server is temporarily offline. All services running on it will just be disabled until it's back up, including Gamer Bot."
-        }
-    ],
+    "notices": [],
     "blocks": [
         {
             "section_name": "SERVERS",
@@ -17,7 +11,7 @@
                 },
                 {
                     "name": "Strawberry",
-                    "status": "Under Maintenance"
+                    "status": "Operational"
                 },
                 {
                     "name": "Chocolate",
