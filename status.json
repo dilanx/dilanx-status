@@ -34,6 +34,10 @@
                 {
                     "name": "Authentication Server",
                     "status": "Operational"
+                },
+                {
+                    "name": "SGDG Portal",
+                    "status": "Under Maintenance"
                 }
             ]
         },
