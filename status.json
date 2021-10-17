@@ -1,6 +1,12 @@
 {
     "title": "Dilan Status",
-    "notices": [],
+    "notices": [
+        {
+            "title": "SGDG Portal Offline",
+            "color": "blue",
+            "text": "The SGDG Portal is being updated! In the meantime, you can still access sgdgroup.org, but you won't be able to edit your profile, nor use search or view anyone's profiles."
+        }
+    ],
     "blocks": [
         {
             "section_name": "SERVERS",
