@@ -20,6 +20,10 @@
                 {
                     "name": "Mint",
                     "status": "Operational"
+                },
+                {
+                    "name": "Mango",
+                    "status": "Operational"
                 }
             ]
         },
@@ -38,6 +42,10 @@
                 {
                     "name": "SGDG Portal",
                     "status": "Operational"
+                },
+                {
+                    "name": "Wildbot",
+                    "status": "Operational"
                 }
             ]
         },
@@ -52,7 +60,7 @@
                         "show_player_names": false,
                         "name": "Server K-1A",
                         "description": "Plugin Store Testing Server 1.14.4",
-                        "ip": "testing.blockhead7360.com"
+                        "ip": "mc1.dilanxd.com:25581"
                     }
                 },
                 {
@@ -64,6 +72,17 @@
                         "name": "Server I-8",
                         "description": "Drehmal with friends",
                         "ip": "mc2.dilanxd.com:25569"
+                    }
+                },
+                {
+                    "name": "Minecraft Private Server 3",
+                    "minecraft": {
+                        "show_name": true,
+                        "show_player_count": true,
+                        "show_player_names": true,
+                        "name": "Server I-9",
+                        "description": "Vanilla survival with friends",
+                        "ip": "mc3.dilanxd.com:25579"
                     }
                 }
             ]
