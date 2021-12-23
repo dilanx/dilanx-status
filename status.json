@@ -31,17 +31,21 @@
             "section_name": "BOTS AND SERVICES",
             "content": [
                 {
-                    "name": "Gamer Bot",
-                    "status": "Temporarily Offline",
-                    "description": "Gamer Bot's sleeping for a bit. He'll be back soon."
+                    "name": "Authentication Server",
+                    "status": "Operational"
                 },
                 {
-                    "name": "Authentication Server",
+                    "name": "Plan Northwestern",
                     "status": "Operational"
                 },
                 {
                     "name": "SGDG Portal",
                     "status": "Operational"
+                },
+                {
+                    "name": "Gamer Bot",
+                    "status": "Temporarily Offline",
+                    "description": "Gamer Bot's sleeping for a bit. He'll be back soon."
                 },
                 {
                     "name": "Wildbot",
