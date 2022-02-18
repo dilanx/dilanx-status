@@ -7,7 +7,7 @@
             "content": [
                 {
                     "name": "Vanilla",
-                    "status": "Offline"
+                    "status": "Operational"
                 },
                 {
                     "name": "Strawberry",
@@ -32,7 +32,7 @@
             "content": [
                 {
                     "name": "Authentication Server",
-                    "status": "Operational"
+                    "status": "Under Maintenance"
                 },
                 {
                     "name": "Plan Northwestern",
