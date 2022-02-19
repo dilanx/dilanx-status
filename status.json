@@ -1,10 +1,9 @@
 {
-    "title": "Dilan Status",
-    "notices": [],
-    "blocks": [
+    "title": "Dilan System Status",
+    "sections": [
         {
-            "section_name": "SERVERS",
-            "content": [
+            "name": "SERVERS",
+            "contents": [
                 {
                     "name": "Vanilla",
                     "status": "Operational"
@@ -28,10 +27,15 @@
             ]
         },
         {
-            "section_name": "BOTS AND SERVICES",
-            "content": [
+            "name": "BOTS AND SERVICES",
+            "contents": [
                 {
                     "name": "Authentication Server",
+                    "request": {
+                        "url": "https://auth.dilanxd.com",
+                        "success": "Operational",
+                        "failure": "Offline"
+                    },
                     "status": "Under Maintenance"
                 },
                 {
@@ -40,7 +44,11 @@
                 },
                 {
                     "name": "SGDG Portal",
-                    "status": "Operational"
+                    "request": {
+                        "url": "https://portal.sgdgroup.org/info",
+                        "success": "Operational",
+                        "failure": "Offline"
+                    }
                 },
                 {
                     "name": "Gamer Bot",
@@ -49,51 +57,47 @@
                 },
                 {
                     "name": "Wildbot",
-                    "status": "Operational"
+                    "status": "Offline"
                 }
             ]
         },
         {
-            "section_name": "MINECRAFT",
-            "content": [
+            "name": "MINECRAFT",
+            "contents": [
                 {
-                    "name": "Minecraft Private Server 1",
+                    "name": "Minecraft Server 1",
                     "minecraft": {
-                        "show_name": true,
-                        "show_player_count": true,
-                        "show_player_names": false,
-                        "name": "Server K-1A",
+                        "ip": "mc1.dilanxd.com:25581",
+                        "name": "K-1A",
                         "description": "Plugin Store Testing Server 1.14.4",
-                        "ip": "mc1.dilanxd.com:25581"
+                        "show_player_count": true
                     }
                 },
                 {
-                    "name": "Minecraft Private Server 2",
+                    "name": "Minecraft Server 2",
                     "minecraft": {
-                        "show_name": true,
-                        "show_player_count": true,
-                        "show_player_names": true,
-                        "name": "Server I-8",
+                        "ip": "mc2.dilanxd.com:25569",
+                        "name": "I-8",
                         "description": "Drehmal with friends",
-                        "ip": "mc2.dilanxd.com:25569"
+                        "show_player_count": true,
+                        "show_player_names": true
                     }
                 },
                 {
-                    "name": "Minecraft Private Server 3",
+                    "name": "Minecraft Server 3",
                     "minecraft": {
-                        "show_name": true,
-                        "show_player_count": true,
-                        "show_player_names": true,
-                        "name": "Server I-9",
+                        "ip": "mc3.dilanxd.com:25579",
+                        "name": "I-9",
                         "description": "Vanilla survival with friends",
-                        "ip": "mc3.dilanxd.com:25579"
+                        "show_player_count": true,
+                        "show_player_names": true
                     }
                 }
             ]
         },
         {
-            "section_name": "OTHER THINGS",
-            "content": [
+            "name": "OTHER THINGS",
+            "contents": [
                 {
                     "name": "dilanxd.com",
                     "status": "Operational",
@@ -105,9 +109,7 @@
                 }
             ]
         }
-
     ],
-
     "settings": {
 
         "default_color_map": {
