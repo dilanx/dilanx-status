@@ -35,8 +35,7 @@
                         "url": "https://auth.dilanxd.com",
                         "success": "Operational",
                         "failure": "Offline"
-                    },
-                    "status": "Under Maintenance"
+                    }
                 },
                 {
                     "name": "Plan Northwestern",
