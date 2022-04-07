@@ -22,7 +22,8 @@
                 },
                 {
                     "name": "Mango",
-                    "status": "Operational"
+                    "status": "Operational",
+                    "description": "Mango is scheduled for termination later this month."
                 }
             ]
         },
