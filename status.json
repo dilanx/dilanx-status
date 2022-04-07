@@ -31,11 +31,7 @@
             "contents": [
                 {
                     "name": "Authentication Server",
-                    "request": {
-                        "url": "https://auth.dilanxd.com",
-                        "success": "Operational",
-                        "failure": "Offline"
-                    }
+                    "status": "Operational"
                 },
                 {
                     "name": "Plan Northwestern",
@@ -43,11 +39,7 @@
                 },
                 {
                     "name": "SGDG Portal",
-                    "request": {
-                        "url": "https://portal.sgdgroup.org/info",
-                        "success": "Operational",
-                        "failure": "Offline"
-                    }
+                    "status": "Under Maintenance"
                 },
                 {
                     "name": "Gamer Bot",
@@ -110,24 +102,18 @@
         }
     ],
     "settings": {
-
         "default_color_map": {
-
             "Operational": "#50c878",
             "Unfortunately Operational": "#50c878",
             "Online": "#50c878",
             "Offline": "#828282",
             "Temporarily Offline": "#c8392c",
             "Under Maintenance": "#7393b3"
-
         },
 
         "notice_colors": {
-
             "red": "#c8392c",
             "blue": "#7393b3"
-
         }
-
     }
 }
