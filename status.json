@@ -22,8 +22,7 @@
                 },
                 {
                     "name": "Mango",
-                    "status": "Operational",
-                    "description": "Mango is scheduled for termination later this month."
+                    "status": "Terminated"
                 }
             ]
         },
@@ -108,7 +107,8 @@
             "Online": "#50c878",
             "Offline": "#828282",
             "Temporarily Offline": "#c8392c",
-            "Under Maintenance": "#7393b3"
+            "Under Maintenance": "#7393b3",
+            "Terminated": "#c8392c"
         },
 
         "notice_colors": {
